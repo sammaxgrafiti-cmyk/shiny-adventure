@@ -1,82 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KJ Land Surveyors — Home</title>
-<meta name="description" content="Professional land surveying and real estate consultancy services across Kenya.">
-<meta name="keywords" content="Land surveyors Kenya, subdivision, title deed processing, GIS mapping">
-<meta name="author" content="KJ Land Surveyors">
-
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJ Land Surveyors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-<div class="logo">KJ LAND SURVEYORS</div>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="services.html">Services</a>
-<a href="projects.html">Projects</a>
-<a href="contact.html">Contact</a>
-</nav>
-</header>
-
-<section class="hero">
-<div class="hero-box">
-<h1>Luxury Precision in Land Surveying</h1>
-<p>We deliver high-accuracy surveying and real estate consultancy services designed for developers, investors, and landowners who demand excellence.</p>
-<a href="contact.html" class="btn">Book Consultation</a>
-</div>
-</section>
-
-<section class="section" id="services">
-<h2>Our Premium Services</h2>
-<div class="grid">
-<div class="card"><h3>Land Subdivision</h3><p>Planning, approvals, and legal subdivision of land.</p></div>
-<div class="card"><h3>Beacon & Boundary Surveys</h3><p>High-precision boundary verification and beacon placement.</p></div>
-<div class="card"><h3>Title Deed Processing</h3><p>Fast and compliant facilitation of title deeds.</p></div>
-<div class="card"><h3>GIS Mapping</h3><p>Advanced spatial mapping & geodata solutions.</p></div>
-<div class="card"><h3>Topographical Surveys</h3><p>Detailed terrain mapping for development projects.</p></div>
-<div class="card"><h3>Land Transfers</h3><p>Secure and transparent ownership transfers.</p></div>
-</div>
-</section>
-
-<section class="section testimonials" id="testimonials">
-<h2>Client Testimonials</h2>
-<div class="testimonial active">
-<p>“Exceptional professionalism and precision. Highly recommended.”</p>
-<strong>— Property Developer</strong>
-</div>
-<div class="testimonial">
-<p>“Their efficiency in title processing saved us months.”</p>
-<strong>— Investor</strong>
-</div>
-<div class="testimonial">
-<p>“Reliable surveying partner for all our projects.”</p>
-<strong>— Contractor</strong>
-</div>
-</section>
-
-<section class="section stats">
-<h2>Our Achievements</h2>
-<div class="grid">
-<div class="card"><h3>500+</h3><p>Surveys Completed</p></div>
-<div class="card"><h3>98%</h3><p>Client Satisfaction</p></div>
-<div class="card"><h3>15</h3><p>Counties Served</p></div>
-<div class="card"><h3>24/7</h3><p>Consultation Support</p></div>
-</div>
-</section>
-
-<footer>
-© 2026 KJ Land Surveyors and Realtors Consultants — Enterprise Edition
-</footer>
-
-<a class="whatsapp" href="https://wa.me/254720397313">💬</a>
-
-<script src="script.js"></script>
+    <header>
+        <h1>KJ Land Surveyors</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Welcome to KJ Land Surveyors</h2>
+            <p>Your trusted partner in land surveying.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Boundary Surveys</li>
+                <li>Topographic Surveys</li>
+                <li>Construction Layout</li>
+                <li>ALTA Surveys</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>KJ Land Surveyors has over 20 years of experience in the surveying industry.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 KJ Land Surveyors. All rights reserved.</p>
+    </footer>
 </body>
 </html>
